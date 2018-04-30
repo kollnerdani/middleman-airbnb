@@ -1,0 +1,39 @@
+   <div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <%= image_tag "favicon.png", id: "logo" %>
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <a href= "../about.html" class="navbar-wagon-item navbar-wagon-link">Teammates</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="data:image/jpeg;base64,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" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
